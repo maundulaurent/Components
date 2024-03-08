@@ -1,0 +1,40 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+
+
+<body>
+    <br>
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Buniwa Creations</h5>
+                    <div class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</div>
+                    <a href="#" class="btn btn-primary">Muema</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">You$Me</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn btn-primary">Me then You</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <a  type="button" class="btn btn-success" href="{% url 'signup' %}">Create your account &nbsp; <i class="fa fa-user-plus" aria-hidden="true"></i></a>
+
+</body>
+
+
+{% endblock %}
